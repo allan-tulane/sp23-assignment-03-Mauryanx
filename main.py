@@ -94,7 +94,7 @@ def parens_match_scan(mylist):
     False
     
     """
-    m = list(map(lambda x:paren_map(x), mylist))
+  m = list(map(lambda x:paren_map(x), mylist))
   for i in m:
     if (i == -1):
       return False
